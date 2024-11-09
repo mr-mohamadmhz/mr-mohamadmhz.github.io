@@ -39,7 +39,7 @@ const links = [
     id: 4,
     child: (
       <>
-        Linkedin
+          Resume
         <BsFillPersonLinesFill size={25} />
       </>
     ),

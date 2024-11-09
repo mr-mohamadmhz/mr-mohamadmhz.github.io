@@ -1,5 +1,5 @@
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
+import Metanext from "../assets/portfolio/metanext.webp";
+import Larisa from "../assets/portfolio/larisa.svg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
@@ -11,11 +11,11 @@ const portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: Metanext,
     },
     {
       id: 2,
-      src: installNode,
+      src: Larisa,
     },
     {
       id: 3,
@@ -56,8 +56,8 @@ const portfolio = () => {
             >
               <img
                 src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                alt={src}
+                className="rounded-md object-fillduration-200 hover:scale-105 bg-gradient-to-t from-white h-[15rem] w-full"
               />
               <div className="felx items-center justify-center">
                 <button className=" w-full rounded-md my-3 py-3 duration-200 hover:scale-105 bg-gradient-to-b from-cyan-500 to-blue-500 font-bold  text-1xl">
