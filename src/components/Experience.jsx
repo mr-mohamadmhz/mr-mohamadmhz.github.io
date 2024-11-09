@@ -1,101 +1,44 @@
-import css from "../assets/css.png";
-import html from "../assets/html.png";
-import github from "../assets/github.png";
-import graphql from "../assets/graphql.png";
-import heroImage from "../assets/heroImage.png";
-import javascript from "../assets/javascript.png";
-import nextjs from "../assets/nextjs.png";
-import node from "../assets/node.png";
-import react from "../assets/react.png";
-import tailwind from "../assets/tailwind.png";
-
 import React from "react";
 
 const Experience = () => {
+    return (
+        <div
+            name="experience"
+            className="h-auto py-5 w-full bg-gradient-to-b from-gray-800  to-black text-white"
+        >
+            <div className="max-w-screen-lg p-4 mx-auto  felx-col justify-center w-full h-full">
+                <div className="pb-8">
+                    <p className="font-bold text-4xl inline border-b-4 border-gray-500"
 
-    const techs = [
-      {
-        id: 1,
-        src: html,
-        title: "HTML",
-        style: "shadow-orange-500",
-        max:80
-      },
-      {
-        id: 2,
-        src: css,
-        title: "CSS",
-        style: "shadow-blue-500",
-        max:75
-      },
-      {
-        id: 3,
-        src: javascript,
-        title: "Javascript",
-        style: "shadow-yellow-500",
-        max:60
-      },
-      {
-        id: 4,
-        src: react,
-        title: "ReactJS",
-        style: "shadow-blue-600",
-        max:60
-      },
-      {
-        id: 5,
-        src: tailwind,
-        title: "Tailwind",
-        style: "shadow-sky-400",
-        max:80
-      },
-      {
-        id: 6,
-        src: github,
-        title: "Github",
-        style: "shadow-gray-400",
-        max:70
-      },
-    ];
-
-  return (
-    <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-auto py-5 text-white"
-    >
-      <div className="max-w-screen-lg sm:p-4 p-1 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Experience
-          </p>
-          <p className="py-6">These are the technologies I've worked with</p>
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0 text-center">
-          {techs.map(({ id, src, title, max, style }) => (
-            <div
-              key={id}
-              className={
-                "duration-200 hover:scale-105 shadow-md rounded-lg p-2 border-gray-100" +
-                " " +
-                style
-              }
-            >
-              <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
-              <input
-                type="range"
-                min="0"
-                max="100"
-                value={max}
-                className="w-full mt-4"
-              />
+                    >Experience</p>
+                </div>
+                <p className="text-xl mt-20 flex flex-col text-justify">
+                    <strong> Frontend developer | Weton |{' '}
+                        <a className='text-blue-400' href='https://metanext.biz/' target='_blank'>
+                            https://metanext.biz/
+                        </a> | 2023 - 2024</strong>
+                    I worked as a front-end developer at Weton, responsible for the HRM section of an integrated system.
+                    <ul className='text-base'>
+                        <li> Developed, maintained, and troubleshot HRM software solutions.</li>
+                        <li> Collaborated with cross-functional teams to define requirements and deliverables.</li>
+                        <li> Conducted system tests and prepared project documentation.</li>
+                        <li> Provided technical support and training to end-users.</li>
+                        <li> Ensured compliance with quality standards and participated in code reviews.</li>
+                    </ul>
+                </p>
+                <br/>
+                <p className="text-xl flex flex-col text-justify">
+                    <strong>Frontend developer | Larisa |{' '}
+                        <a className='text-blue-400' href='https://web.larisapooshak.com/' target='_blank'>
+                            https://web.larisapooshak.com/
+                        </a> | 2023 - 2024</strong>
+                    <span>
+                      As a front-end developer, I collaborated with the team to build and develop the Larisa website . Notably, we
+                      utilized NextJS as our framework and Material-UI (MUI) to create a seamless user experience.</span>
+                </p>
             </div>
-          ))}
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Experience;
