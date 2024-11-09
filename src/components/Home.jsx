@@ -22,7 +22,7 @@ const Home = () => {
                             all stages of web development and am fully familiar with the user interface process
                         </p>
                         <p className="text-gray-500 py-4 max-w-md">
-                            <strong className='block !font-bold'>EDUCATION</strong>
+                            <strong className='block !font-bold text-white'>EDUCATION</strong>
                             Bachelor of computer | Bardaskan azad university
                         </p>
                         <div>

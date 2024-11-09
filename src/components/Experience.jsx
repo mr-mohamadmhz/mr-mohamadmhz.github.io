@@ -18,7 +18,7 @@ const Experience = () => {
                             https://metanext.biz/
                         </a> | 2023 - 2024</strong>
                     I worked as a front-end developer at Weton, responsible for the HRM section of an integrated system.
-                    <ul className='text-base'>
+                    <ul className='text-base list-none pl-6 list-custom'>
                         <li> Developed, maintained, and troubleshot HRM software solutions.</li>
                         <li> Collaborated with cross-functional teams to define requirements and deliverables.</li>
                         <li> Conducted system tests and prepared project documentation.</li>
