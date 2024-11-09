@@ -1,7 +1,7 @@
 import Metanext from "../assets/portfolio/metanext.webp";
 import Larisa from "../assets/portfolio/larisa.svg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import Mzi from "../assets/portfolio/mzi.svg";
+import Logestic from "../assets/portfolio/logestic.svg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import usestate from "../assets/portfolio/usestate.jpg";
 
@@ -19,19 +19,11 @@ const portfolio = () => {
     },
     {
       id: 3,
-      src: navbar,
+      src: Mzi,
     },
     {
       id: 4,
-      src: reactParallax,
-    },
-    {
-      id: 5,
-      src: reactSmooth,
-    },
-    {
-      id: 6,
-      src: usestate,
+      src: Logestic,
     },
   ];
 
@@ -52,7 +44,7 @@ const portfolio = () => {
           {portfolios.map(({ id, src }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-600 rounded-lg p-2 border-gray-100"
+              className="shadow-md shadow-gray-600 rounded-lg p-2 border-gray-100 "
             >
               <img
                 src={src}
@@ -60,7 +52,7 @@ const portfolio = () => {
                 className="rounded-md object-fillduration-200 hover:scale-105 bg-gradient-to-t from-white h-[15rem] w-full"
               />
               <div className="felx items-center justify-center">
-                <button className=" w-full rounded-md my-3 py-3 duration-200 hover:scale-105 bg-gradient-to-b from-cyan-500 to-blue-500 font-bold  text-1xl">
+                <button disabled={true} className=" w-full rounded-md my-3 py-3 duration-200 hover:scale-105 bg-gradient-to-b from-cyan-500 to-blue-500 font-bold  text-1xl">
                   Go to git
                 </button>
               </div>

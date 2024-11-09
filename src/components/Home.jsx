@@ -21,6 +21,10 @@ const Home = () => {
                             experience and skills in
                             all stages of web development and am fully familiar with the user interface process
                         </p>
+                        <p className="text-gray-500 py-4 max-w-md">
+                            <strong className='block !font-bold'>EDUCATION</strong>
+                            Bachelor of computer | Bardaskan azad university
+                        </p>
                         <div>
                             <button
                                 className="group text-white flex items-center py-3 px-6 my-3 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
