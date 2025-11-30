@@ -18,15 +18,15 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: Larisa,
-      href: "https://web.larisapooshak.com/",
+      src: arazScarf,
+      href: "https://arazscarf.com/",
       description:
-        "Larisa specializes in offering high-quality, stylish clothing for all seasons, blending modern designs with premium craftsmanship.",
+        "Araz Scarf provides a wide range of elegant and fashionable scarves, perfect for every occasion and personal style.",
     },
     {
       id: 3,
       src: Mzi,
-      href: "",
+      href: "https://mzilogistics.ir/fa",
       description:
         "Mzi is a software development company delivering innovative solutions, custom applications, and transformative digital strategies for businesses.",
     },
@@ -51,12 +51,13 @@ const Portfolio = () => {
       description:
         "Fandogh is an online store featuring a curated selection of unique, high-quality products for an enjoyable shopping experience.",
     },
+
     {
       id: 7,
-      src: arazScarf,
-      href: "https://arazscarf.com/",
+      src: Larisa,
+      href: "",
       description:
-        "Araz Scarf provides a wide range of elegant and fashionable scarves, perfect for every occasion and personal style.",
+        "Larisa specializes in offering high-quality, stylish clothing for all seasons, blending modern designs with premium craftsmanship.",
     },
   ];
 
