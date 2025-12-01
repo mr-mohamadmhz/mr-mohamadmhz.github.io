@@ -1,11 +1,10 @@
-import React from "react";
 import Avaex from "../assets/portfolio/avaex.png";
 import Larisa from "../assets/portfolio/larisa.svg";
 import Logestic from "../assets/portfolio/logestic.svg";
+import arazScarf from "../assets/portfolio/logo-arazScarf.svg";
+import Fandogh from "../assets/portfolio/logo-fandogh.svg";
 import Metanext from "../assets/portfolio/metanext.webp";
 import Mzi from "../assets/portfolio/mzi.svg";
-import Fandogh from "../assets/portfolio/logo-fandogh.svg";
-import arazScarf from "../assets/portfolio/logo-arazScarf.svg";
 
 const Portfolio = () => {
   const portfolios = [

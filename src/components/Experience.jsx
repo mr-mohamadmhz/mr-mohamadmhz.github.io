@@ -1,5 +1,3 @@
-import React from "react";
-
 const Experience = () => {
   return (
     <div
@@ -20,6 +18,7 @@ const Experience = () => {
               className="text-blue-400"
               href="https://metanext.biz/"
               target="_blank"
+              rel="noreferrer"
             >
               https://metanext.biz/
             </a>{" "}
@@ -54,6 +53,7 @@ const Experience = () => {
               className="text-blue-400"
               href="https://web.larisapooshak.com/"
               target="_blank"
+              rel="noreferrer"
             >
               https://web.larisapooshak.com/
             </a>{" "}
@@ -74,6 +74,7 @@ const Experience = () => {
               className="text-blue-400 pointer-events-none"
               href="http://mziexpoinstc.ir/"
               target="_blank"
+              rel="noreferrer"
             >
               http://mziexpoinstc.ir/
             </a>{" "}
